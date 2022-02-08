@@ -10,13 +10,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyAflP83kx8WmjdOmrbWFsQGkeKGP3CHWy0",
-  authDomain: "gossip-ab.firebaseapp.com",
-  projectId: "gossip-ab",
-  storageBucket: "gossip-ab.appspot.com",
-  messagingSenderId: "348578277789",
-  appId: "1:348578277789:web:1685e7605c1b8eb055e774",
-  measurementId: "G-N203TK4G6Y"
+  
 })
 
 const auth = firebase.auth();
